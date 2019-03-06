@@ -1,0 +1,132 @@
+.displayTitle{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color: white;
+}
+
+.cartItems div div{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.cartItems p{
+    font-size:30px;
+}
+.cartItems div span{
+    padding: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.cartItems{
+    color: white;
+    display:block;
+    margin-left: 50px;
+    padding:5px;
+    
+}
+
+
+.checkout-bar{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.checkout-button{
+    border-radius:5px;
+    width:80%;
+    background-color: green;
+    color: white;
+    border: white 2px solid;
+    margin: auto;
+
+}
+.checkout-bar a{
+    border-radius:5px;
+    width:80%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: white 2px solid;
+    margin: auto;
+}
+
+.checkout-bar button:hover{
+    color:black;
+    background: white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+@media only screen and (min-width: 768px) {
+.displayTitle{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color: white;
+}
+
+.cartItems div div{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.cartItems p{
+    font-size:30px;
+}
+.cartItems div span{
+    padding: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.cartItems{
+    color: white;
+    display:block;
+    margin-left: 50px;
+    padding:5px;
+    
+}
+
+
+.checkout-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.checkout-bar button{
+    border-radius:5px;
+    width:80%;
+    background-color: green;
+    color: white;
+    border: white 2px solid;
+    margin: auto;
+
+}
+.checkout-bar a{
+    border-radius:5px;
+    width:80%;
+    background-color: green;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    border: white 2px solid;
+    margin: auto;
+}
+
+.checkout-bar button:hover{
+    color:black;
+    background: white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+}

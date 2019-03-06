@@ -1,0 +1,82 @@
+
+.each-slide{
+    margin: auto;
+    height:150px;
+}
+.each-slide img{
+    margin: auto;
+    height:150px;
+    width:100%
+}
+
+.banner-slide{
+    position: relative;
+}
+
+.banner-slide .react-slideshow-container + div.indicators{
+    margin-top: 0px;
+    position: absolute;
+    bottom: .75em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner-slide .react-slideshow-container .nav:first-of-type{
+    margin-right: -60px;
+    display:none;
+}
+
+.banner-slide .react-slideshow-container .nav:last-of-type{
+    margin-left: -60px;
+    display:none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 768px) {
+.each-slide{
+    margin: auto;
+    height:300px;
+}
+.each-slide img{
+    margin: auto;
+    height:300px;
+    width: 100%;
+}
+
+.banner-slide{
+    position: relative;
+}
+
+.banner-slide .react-slideshow-container + div.indicators{
+    margin-top: 0px;
+    position: absolute;
+    bottom: .75em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.banner-slide .react-slideshow-container .nav:first-of-type{
+    margin-right: -60px;
+    display:none;
+}
+
+.banner-slide .react-slideshow-container .nav:last-of-type{
+    margin-left: -60px;
+    display:none;
+}
+
+* {
+    box-sizing: border-box;
+}
+}
+
+
+
+
+
+/* Pre-allocate room for the scrollbars, where supported 
+html {overflow: overlay;} */

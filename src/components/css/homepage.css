@@ -1,0 +1,50 @@
+.banner {
+    display: block;
+}
+
+.bannerImg{
+   width:100%;
+}
+
+main {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: rgb(70, 69, 69);
+}
+
+.bottomBar{
+    background-color: #333;
+    margin-top:10px;
+    min-height: 50px;
+    width:100%;
+    bottom:0;
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+.banner {
+    display: block;
+}
+
+.bannerImg{
+   width:100%;
+}
+
+main {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: rgb(70, 69, 69);
+}
+
+.bottomBar{
+    background-color: #333;
+    margin-top:10px;
+    min-height: 50px;
+    width:100%;
+    bottom:0;
+
+}
+
+}

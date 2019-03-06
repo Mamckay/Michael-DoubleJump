@@ -1,0 +1,88 @@
+
+.imgFeatureReview{
+    width: 100%;
+    display: block;
+    margin: 1vw;
+    border-radius:10px;
+
+}
+.featuredVideo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.containerFeaturedReview{
+    background-color: #333;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.authorTitle{
+    color:white;
+    font-size:20px;
+}
+.rightImg{
+    width:100%;
+    margin-top:10px;
+    border-radius:5px;
+}
+.intro{
+    text-align: center;
+    color:white;
+    font-size:20px;
+}
+
+@media only screen and (min-width: 768px) {
+.imgFeatureReview{
+    width: 50%;
+    display: block;
+    float:left;
+    border-radius:5px;
+
+}
+.featuredVideo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.containerFeaturedReview{
+    background-color: #333;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.authorTitle{
+    color:white;
+    font-size:20px;
+}
+.rightImg{
+    float:right;
+    width:40%;
+    margin-top:10px;
+    border-radius:5px;
+}
+.intro{
+    text-align: center;
+    color:white;
+    font-size:20px;
+}
+
+}
+
+
+
+/* 
+.wrapper{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: none;
+
+}
+
+.big-item{
+    background-color: black;
+    width: 80%;
+} */

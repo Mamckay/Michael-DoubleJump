@@ -1,0 +1,99 @@
+
+.loginText{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color:white;
+}
+
+.smallloginText{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color:white;
+}
+
+.loginBackground{
+    background-color:#333;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.loginButton{
+    border-radius: 40px;
+    background-color: green;
+    border: white 3px solid;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+  .loginButton:hover{
+    background-color: white;
+    color: black;
+    border: #333 3px solid;
+  }
+@media only screen and (min-width: 768px) {
+.loginText{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color:white;
+}
+
+.smallloginText{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color:white;
+}
+
+.loginBackground{
+    background-color:#333;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+
+.loginButton{
+    border-radius: 40px;
+    background-color: green;
+    border: white 3px solid;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  
+  .loginButton:hover{
+    background-color: white;
+    color: black;
+    border: #333 3px solid;
+  }
+}

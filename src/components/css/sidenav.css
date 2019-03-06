@@ -1,0 +1,44 @@
+#mySidenav a {
+  position: fixed; /* Position them relative to the browser window */
+  right: -100px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  right: 0; 
+}
+
+#cart{
+  top: 50%;
+  background-color: #4CAF50;
+}
+
+@media only screen and (min-width: 768px) {
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    right: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    right: 0; 
+  }
+  
+  #cart{
+    top: 50%;
+    background-color: #4CAF50;
+  }
+}
+  

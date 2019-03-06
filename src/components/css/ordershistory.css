@@ -1,0 +1,39 @@
+
+.order-list{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color:white;
+}
+
+.deliveryItem{
+    list-style-type: none;
+
+}
+
+.orderText{
+    margin-left:40px;
+}
+
+@media only screen and (min-width: 768px) {
+.order-list{
+    list-style-type: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    color:white;
+}
+
+.deliveryItem{
+    list-style-type: none;
+
+}
+
+.orderText{
+    margin-left:40px;
+}
+}
+

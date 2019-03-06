@@ -1,0 +1,107 @@
+.innerGrid{
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.containerProducts{
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.titleProducts{
+  font-size: 30px;
+  font: bold;
+  font-family: 'Crimson Text', serif;
+  margin-bottom: 40px;
+}
+
+.buyButton{
+  border-radius: 5px;
+  background-color: #333;
+  border: #333 3px solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buyButton:hover{
+  background-color: blue;
+  border: #333 3px solid;
+}
+
+.priceProducts{
+  font-size:20px;
+}
+
+
+.imgProducts{
+  width: 200px;
+  height: 200px;
+  outline: 2px solid black;
+  
+}
+
+@media only screen and (min-width: 768px) {
+.innerGrid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  .containerProducts{
+    background-color: white;
+    width: 85%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+
+  .titleProducts{
+    font-size: 30px;
+    font: bold;
+    font-family: 'Crimson Text', serif;
+    margin-bottom: 40px;
+}
+  
+  .buyButton{
+    border-radius: 5px;
+    background-color: #333;
+    border: #333 3px solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .buyButton:hover{
+    background-color: blue;
+    border: #333 3px solid;
+  }
+  
+  .priceProducts{
+    font-size:20px;
+  }
+
+  
+.imgProducts{
+    width: 200px;
+    height: 200px;
+    outline: 2px solid black;
+    
+}
+}
