@@ -2,7 +2,7 @@
 
  The projects goal is to generate interest in games and accessories with its reviews and sell those items to its users.
 
- Deployed version: https://stormy-tundra-79111.herokuapp.com/
+ Deployed version: https://doublejumps.herokuapp.com/
 
 # Instructions
 Welcome to Double Jump
