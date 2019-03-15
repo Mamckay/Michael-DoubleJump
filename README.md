@@ -7,11 +7,11 @@
 # Instructions
 Welcome to Double Jump
 
-<img alt='Main' src='https://lh3.googleusercontent.com/X6dQw-pbcTIzkphH4bqSZuafh5_wQ1qWO34N-wfbLMv-9Xx9ZvEz32AuUaTb9H1GWodlMc2glVbtLry_X9c=w1920-h969-rw' />
+<img alt='Main' src='https://user-images.githubusercontent.com/41643910/54457971-66c59700-4728-11e9-9fd7-6541fb5f93a0.PNG' />
 
 To use this app properly register at the top right link. 
 
-<img alt='Register' src='https://lh6.googleusercontent.com/_TnWM_V4VMI7GbXeaAiK5EFDqlMpUy-W8KbM9XVg7p2676s1HVaDodOiDUhBhqKfvjGPrhoCNk_lWZbCcAE=w1920-h969-rw' />
+<img alt='Register' src='https://user-images.githubusercontent.com/41643910/54457975-6927f100-4728-11e9-9955-867db28593ae.PNG' />
 
 Once you have entered all the fields and registered you will be rerouted to the profile page.
 
