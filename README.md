@@ -15,7 +15,7 @@ To use this app properly register at the top right link.
 
 Once you have entered all the fields and registered you will be rerouted to the profile page.
 
- <img alt='Profile' src='https://lh3.googleusercontent.com/M4Ng7U1s5hxUNIBmrcH8tdg8ooh2QWRzWH6kLVYB6E0-m0C58T4dIo7iw8FpDJLosIAh_nmMBUpEl4X3JJs=w1920-h969-rw' />
+ <img alt='Profile' src='https://user-images.githubusercontent.com/41643910/54457962-63caa680-4728-11e9-8371-ec90f99092f9.PNG' />
 
  Here you will see the cart and order history of the user if any was detected on load. Add some items from the cart and complete and order either through the profile or cart pages. 
 
