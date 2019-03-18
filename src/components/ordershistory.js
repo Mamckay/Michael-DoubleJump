@@ -3,8 +3,8 @@ import "./css/ordershistory.css";
 
 export default function OrdersHistory(props) {
   const itemList = items => {
-    return items.map(item => {
-      return <li className="deliveryItem">{item.name}</li>;
+    return items.map((item, index) => {
+      return <li key={index} className="deliveryItem">{item.name}</li>;
     });
   };
   const listMaker = (order, index) => {
@@ -26,9 +26,9 @@ export default function OrdersHistory(props) {
   };
   const list = props.orders.map((order, index) => {
     if (order.shipdate) {
-      return <div>{listMaker(order, index)}</div>;
+      return <div key={index}>{listMaker(order, index)}</div>;
     } else {
-      return <span>No Orders</span>;
+      return <span key={index}>No Orders</span>;
     }
   });
   return (
