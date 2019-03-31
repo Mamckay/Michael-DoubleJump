@@ -6,6 +6,7 @@
 .form-input input{
   margin: 1% 0 3% 0;
   height: 30px;
+  width: 310px;
 }
 
 .loginText{
@@ -43,7 +44,7 @@
 
 .loginButton{
     border-radius: 5px;
-    width: 171px;
+    width: 290px;
     background-color: green;
     border: white 3px solid;
     color: white;
@@ -53,7 +54,7 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer; 
-    margin: 20px auto;
+    margin: 20px 10px;
   }
   
   .loginButton:hover{
@@ -111,7 +112,7 @@
     display: inline-block;
     font-size: 16px;
     cursor: pointer; 
-    margin: 20px auto;
+    margin: 20px 10px;
   }
   
   .loginButton:hover{
