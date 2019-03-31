@@ -3,6 +3,11 @@
   margin: 1% 0 3% 0;
 }
 
+.form-input input{
+  margin: 1% 0 3% 0;
+  height: 30px;
+}
+
 .loginText{
     list-style-type: none;
     padding: 10px;
@@ -58,6 +63,8 @@
   }
 
   .demo-container{
+    padding: 5px;
+    border-radius: 5px;
     background: rgb(70, 69, 69);
   }
 
@@ -67,8 +74,6 @@
   }
 
 @media only screen and (min-width: 768px) {
-
-
 
 .loginText{
     list-style-type: none;
