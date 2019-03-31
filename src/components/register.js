@@ -9,7 +9,7 @@ class Register extends React.Component {
       return <Redirect to="/profile" />;
     } else {
       return (
-        <div className="loginBackground">
+        <section className="loginBackground">
           <h3 className="loginText"> Sign up</h3>
           <RegistrationForm />
           <div className='customHr'></div>
@@ -17,7 +17,7 @@ class Register extends React.Component {
           <Link className="smallloginText" to="/login">
             Login
           </Link>
-        </div>
+        </section>
       );
     }
   }

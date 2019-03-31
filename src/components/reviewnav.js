@@ -25,10 +25,10 @@ class ReviewNav extends React.Component {
   };
   render() {
     return (
-      <div className="review-nav">
+      <nav className="review-nav">
         <span onClick={() => this.setSearch("")}>Search Reviews</span>
         <ul>{this.createList()}</ul>
-      </div>
+      </nav>
     );
   }
 }

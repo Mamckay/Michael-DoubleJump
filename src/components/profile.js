@@ -23,7 +23,7 @@ class Profile extends React.Component {
       return <Redirect to="/login" />;
     } else {
       return (
-        <div className="profileContainer">
+        <section className="profileContainer">
           <img
             className="profilePic"
             src="https://www.smashbros.com/assets_v2/img/fighter/pict/dark_samus.png"
@@ -44,7 +44,7 @@ class Profile extends React.Component {
             <Cart />
             <OrdersHistory orders={this.props.orders} />
           </div>
-        </div>
+        </section>
       );
     }
   }

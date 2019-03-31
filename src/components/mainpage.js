@@ -4,8 +4,8 @@ import "./css/mainpage.css";
 export default class MainPage extends React.Component {
   render() {
     return (
-      <div className="containerFeaturedReview">
-        <div className="intro">
+      <section className="containerFeaturedReview">
+        <header className="intro">
           <span>Welcome to Double Jump!</span>
           <br />
           <p>
@@ -13,7 +13,7 @@ export default class MainPage extends React.Component {
             video games and accessories
           </p>
           <p>Sign up to utilize the most of this site.</p>
-        </div>
+        </header>
         <div className="customHr" />
         <img
           alt="missing"
@@ -87,7 +87,7 @@ export default class MainPage extends React.Component {
             allowFullScreen
           />
         </div>
-      </div>
+      </section>
     );
   }
 }

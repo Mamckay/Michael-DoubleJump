@@ -1,4 +1,8 @@
 
+.form-input{
+  margin: 1% 0 3% 0;
+}
+
 .loginText{
     list-style-type: none;
     padding: 10px;
@@ -15,6 +19,10 @@
     font-size: 20px;
     line-height: 1.2;
     color:white;
+}
+
+.smallloginText:hover{
+  cursor: pointer;
 }
 
 .loginBackground{
@@ -29,7 +37,8 @@
 }
 
 .loginButton{
-    border-radius: 40px;
+    border-radius: 5px;
+    width: 171px;
     background-color: green;
     border: white 3px solid;
     color: white;
@@ -38,10 +47,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer; 
-    margin-top: 20px;
-    margin-left: 100px;
+    margin: 20px auto;
   }
   
   .loginButton:hover{
@@ -49,7 +56,20 @@
     color: black;
     border: #333 3px solid;
   }
+
+  .demo-container{
+    background: rgb(70, 69, 69);
+  }
+
+  .demo-container p{
+    color:white;
+    margin: 5px;
+  }
+
 @media only screen and (min-width: 768px) {
+
+
+
 .loginText{
     list-style-type: none;
     padding: 10px;
@@ -77,7 +97,6 @@
 }
 
 .loginButton{
-    border-radius: 40px;
     background-color: green;
     border: white 3px solid;
     color: white;
@@ -86,10 +105,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer; 
-    margin-top: 20px;
-    margin-left: 100px;
+    margin: 20px auto;
   }
   
   .loginButton:hover{

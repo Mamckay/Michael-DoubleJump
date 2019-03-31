@@ -26,15 +26,15 @@ export default function OrdersHistory(props) {
   };
   const list = props.orders.map((order, index) => {
     if (order.shipdate) {
-      return <div key={index}>{listMaker(order, index)}</div>;
+      return <ul key={index}>{listMaker(order, index)}</ul>;
     } else {
       return <span key={index}>No Orders</span>;
     }
   });
   return (
-    <div>
+    <section>
       <div className="customHr" />
       {list}
-    </div>
+    </section>
   );
 }

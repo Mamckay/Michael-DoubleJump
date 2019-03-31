@@ -22,24 +22,24 @@ class Cart extends React.Component {
   render() {
     if (this.props.cart.length === 0) {
       return (
-        <div className="cartItems">
+        <section className="cartItems">
           <p className='orange-text'>Your cart is empty!</p>
           <p>Dont miss out on the great deals we have visit our store today!</p>
-        </div>
+        </section>
       );
     } else {
       return (
-        <div className="cartItems">
-          <div>{this.listCart()}</div>
+        <section className="cartItems">
+          <ul>{this.listCart()}</ul>
           <div className="customHr" />
           <div className="checkout-bar">
             <span><span className='orange-text'>Total: </span>{this.renderTotal()} plus tax</span>
-            <Link to="/order">Checkout</Link>
-            <button onClick={() => this.props.dispatch(clearAll())}>
+            <Link className='checkout-button' to="/order">Checkout</Link>
+            <button className='checkout-button' onClick={() => this.props.dispatch(clearAll())}>
               Clear cart
             </button>
           </div>
-        </div>
+        </section>
       );
     }
   }

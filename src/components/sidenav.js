@@ -15,11 +15,11 @@ export default class SideNav extends React.Component {
   };
   render() {
     return (
-      <div id="mySidenav" className="sidenav">
+      <nav id="mySidenav" className="sidenav">
         <a href="one" id="cart">
           {this.createCart()}
         </a>
-      </div>
+      </nav>
     );
   }
 }

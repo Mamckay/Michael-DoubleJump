@@ -39,28 +39,21 @@
 
 .checkout-button{
     border-radius:5px;
-    width:80%;
+    width: 120px;
+    height: 40px;
     background-color: green;
     color: white;
     border: white 2px solid;
     margin: auto;
+    font-size: 20px;
+    text-align: center;
 
 }
-.checkout-bar a{
-    border-radius:5px;
-    width:80%;
-    background-color: green;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border: white 2px solid;
-    margin: auto;
-}
+
 
 .checkout-bar button:hover{
     color:black;
     background: white;
-    border-radius: 5px;
     cursor:pointer;
 }
 
@@ -102,31 +95,9 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.checkout-bar button{
-    border-radius:5px;
-    width:80%;
-    background-color: green;
-    color: white;
-    border: white 2px solid;
-    margin: auto;
-
-}
-.checkout-bar a{
-    border-radius:5px;
-    width:80%;
-    background-color: green;
-    color: white;
-    
-    text-align: center;
-    text-decoration: none;
-    border: white 2px solid;
-    margin: auto;
-}
-
 .checkout-bar button:hover{
     color:black;
     background: white;
-    border-radius: 5px;
     cursor:pointer;
 }
 }

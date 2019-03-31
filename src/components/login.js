@@ -10,15 +10,20 @@ class Login extends React.Component {
       return <Redirect to="/profile" />;
     } else {
       return (
-        <div className="loginBackground">
+        <section className="loginBackground">
           <h3 className="loginText"> Sign in</h3>
           <LoginForm />
+          <section className='demo-container'>
+            <p>Demo account</p>
+            <p>Username: demovip</p>
+            <p>Password: restisrust</p>
+          </section>
           <div className='customHr'></div>
           <h3 className="loginText"> Sign up</h3>
           <Link className="smallloginText" to="/register">
             Register
           </Link>
-        </div>
+        </section>
       );
     }
   }

@@ -10,7 +10,7 @@ export default function ReviewItem({ reviews, review }) {
       }}
       className="titleTopReviews"
     >
-      <div className="innerReviewFlex">
+      <section className="innerReviewFlex">
         <img className="imgTopReviews" src={review.imgUrl} alt="review" />
         <div className='review-description-container'>
           {review.name}
@@ -26,7 +26,7 @@ export default function ReviewItem({ reviews, review }) {
           <br></br>
           <span className="orange-text">Avg Rating: {review.rating.toString()}/10</span>
         </div>
-      </div>
+      </section>
     </Link>
 
   );

@@ -3,7 +3,7 @@ import "./css/productitem.css";
 
 export default function ProductItem({ product, onClick }) {
   return (
-    <div className="innerReviewFlex">
+    <section className="innerReviewFlex">
       <img className="imgTopReviews" src={product.imgUrl} alt="review" />
       <div className='orange-text mini'>
         {product.name}
@@ -22,6 +22,6 @@ export default function ProductItem({ product, onClick }) {
       <button className='minibutton' onClick={() => onClick()}>
         Add to cart
             </button>
-    </div>
+    </section>
   );
 }

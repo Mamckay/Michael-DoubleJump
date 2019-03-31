@@ -21,7 +21,7 @@ class Order extends React.Component {
   }
   render() {
     return (
-      <div className="cartItems">
+      <section className="cartItems">
         <div>{this.listCart()}</div>
         <div className="customHr" />
         <div className="checkout-bar">
@@ -37,7 +37,7 @@ class Order extends React.Component {
             Confirm Order
           </Link>
         </div>
-      </div>
+      </section>
     );
   }
 }

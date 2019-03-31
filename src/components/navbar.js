@@ -9,7 +9,7 @@ function Navbar(props) {
   if (props.user !== null) {
     return (
       <React.Fragment>
-        <div className="topnav">
+        <nav className="topnav">
           <Link to="/">
             <span className="topnav-left" href="#home">
               Home
@@ -40,14 +40,14 @@ function Navbar(props) {
               {props.user.username}
             </span>
           </Link>
-        </div>
+        </nav>
         <Banner />
       </React.Fragment>
     );
   } else {
     return (
       <React.Fragment>
-        <div className="topnav">
+        <nav className="topnav">
           <Link to="/">
             <span className="topnav-left" href="#home">
               Home
@@ -77,7 +77,7 @@ function Navbar(props) {
               Sign In
             </span>
           </Link>
-        </div>
+        </nav>
         <Banner />
       </React.Fragment>
     );

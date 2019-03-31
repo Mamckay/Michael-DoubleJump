@@ -11,7 +11,7 @@ class ReviewList extends React.Component {
   }
   createList() {
     const temp = this.props.reviews.map((review, index) => (
-      <div key={index}>
+      <section key={index}>
         <hr className='orange-hr'></hr>
         <ReviewItem
           key={index}
@@ -20,16 +20,16 @@ class ReviewList extends React.Component {
           searchTerm={this.props.searchTerm}
         />
         <hr className='orange-hr'></hr>
-      </div>
+      </section>
     ));
     return temp;
   }
   render() {
     return (
-      <div className="overgrid">
+      <section className="overgrid">
         <ReviewNav />
         <div className="grid">{this.createList()}</div>
-      </div>
+      </section>
     );
   }
 }

@@ -25,10 +25,10 @@ class StoreNav extends React.Component {
   };
   render() {
     return (
-      <div className="store-nav">
+      <nav className="store-nav">
         <span onClick={() => this.setSearch("")}>Search Store</span>
         <ul>{this.createList()}</ul>
-      </div>
+      </nav>
     );
   }
 }

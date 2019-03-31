@@ -16,14 +16,11 @@ html{
     background-color: white;
     width: 90%;
     height: 2px;
-    margin-left: 5%;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin: 20px auto 5px;
 }
 
 .rewardsList{
     display:block;
-    margin-left: 50px;
 }
 .rewardsList div{
     display:block;
@@ -60,9 +57,7 @@ html{
     background-color: white;
     width: 90%;
     height: 2px;
-    margin-left: 5%;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin: 20px auto 5px;
 }
 
 .rewardsList{

@@ -6,7 +6,7 @@ export default function Review(props) {
   const temp = props.location.state.reviews.map((item, index) => {
     if (item.id === id) {
       return (
-        <div key={index} className="reviewContainer">
+        <section key={index} className="reviewContainer">
           <div className="customHr" />
           <span className="rating-span">{item.rating.toString()}/10</span>
           <img alt="doublejump" className="reviewImg-left" src={item.imgUrl} />
@@ -16,7 +16,7 @@ export default function Review(props) {
           <img alt="doublejump" className="reviewImg-right" src={item.imgTag} />
           <p className="reviewBody">{item.reviewbody}</p>
           <div className="customHr" />
-        </div>
+        </section>
       );
     }
   });
