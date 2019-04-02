@@ -27,19 +27,19 @@
     margin-right: 15%;
     color: white;
     display:block;
-    padding:5px;
-    
+    padding: 105px;
+    background-color: rgb(70,69,69);
+    border-radius: 10px;
 }
 
 
 .checkout-bar{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
 }
 
 .checkout-button{
     border-radius:5px;
-    width: 120px;
+    width: 200px;
     height: 40px;
     background-color: green;
     color: white;
@@ -91,8 +91,6 @@
 
 
 .checkout-bar{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .checkout-bar button:hover{

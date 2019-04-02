@@ -10,9 +10,6 @@ export default function OrdersHistory(props) {
   const listMaker = (order, index) => {
     return (
       <li className="order-list" key={index}>
-        <span className="orderText">
-          Order Delivered: {order.completed.toString()}
-        </span>
         <ul>{itemList(order.items)}</ul>
         <br />
         <span className="orderText">{order.address}</span>

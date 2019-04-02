@@ -42,7 +42,7 @@ class Profile extends React.Component {
           <br />
           <div>
             <Cart />
-            <OrdersHistory orders={this.props.orders} />
+            {/* <OrdersHistory orders={this.props.orders} /> */}
           </div>
         </section>
       );

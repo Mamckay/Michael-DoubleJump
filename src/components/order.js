@@ -26,16 +26,16 @@ class Order extends React.Component {
         <div className="customHr" />
         <div className="checkout-bar">
           <span>Total: {this.renderTotal()} plus tax</span>
-          <Link
+          <button
             className="checkout-button"
-            to="/complete"
             onClick={() => {
               this.props.dispatch(setNewOrder());
               this.props.dispatch(clearAll());
+              this.props.history.push('/complete');
             }}
           >
             Confirm Order
-          </Link>
+          </button>
         </div>
       </section>
     );

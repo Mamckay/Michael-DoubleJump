@@ -3,7 +3,6 @@ import { fetchCart } from "../actions/index";
 import { connect } from "react-redux";
 import CartItem from "./cartitem";
 import { clearAll } from "../actions";
-import { Link } from "react-router-dom";
 import "./css/cart.css";
 
 class Cart extends React.Component {
@@ -34,7 +33,7 @@ class Cart extends React.Component {
           <div className="customHr" />
           <div className="checkout-bar">
             <span><span className='orange-text'>Total: </span>{this.renderTotal()} plus tax</span>
-            <Link className='checkout-button' to="/order">Checkout</Link>
+            <button onClick={() => this.props.history.push('./order')} className='checkout-button'>Checkout</button>
             <button className='checkout-button' onClick={() => this.props.dispatch(clearAll())}>
               Clear cart
             </button>
