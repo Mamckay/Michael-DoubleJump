@@ -41,7 +41,7 @@ class Profile extends React.Component {
           <div className="customHr" />
           <br />
           <div>
-            <Cart />
+            <Cart history={this.props.history} />
             {/* <OrdersHistory orders={this.props.orders} /> */}
           </div>
         </section>

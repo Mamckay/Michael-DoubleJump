@@ -25,7 +25,7 @@ class Order extends React.Component {
         <div>{this.listCart()}</div>
         <div className="customHr" />
         <div className="checkout-bar">
-          <span>Total: {this.renderTotal()} plus tax</span>
+          <span>Total: {this.renderTotal()}</span>
           <button
             className="checkout-button"
             onClick={() => {

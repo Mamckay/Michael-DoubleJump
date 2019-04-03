@@ -1,16 +1,17 @@
 .tagline{
     text-align: center;
+    font-size: 20px;
 }
 
-.orange-hr{
-    border-color: orange;
-    width: 80%;
+.review-hr{
+    border-color: rgba(0,0,0,0.2);
+    width: 95%;
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
 
 .white-text{
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -66,7 +67,7 @@
     background-color: white;
     border-radius: 5px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
 .reviewTitle{
     text-align: center;
     font-size: 32px;

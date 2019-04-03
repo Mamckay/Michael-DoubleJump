@@ -38,9 +38,14 @@ html{
 .welcomeText{
     font-size: 30px;
     padding-bottom:90px;
+    margin:0;
 }
 
-@media only screen and (min-width: 768px) {
+.cartItems ul{
+    padding:0;
+}
+
+@media only screen and (min-width: 900px) {
 .profileContainer{
     width: 80%;
     margin-left: 10%;
@@ -51,20 +56,21 @@ html{
     text-align: center;
 }
 
+
 html{
     background-color: rgb(70, 69, 69);
 }
 
 .customHr{
     background-color: white;
-    width: 90%;
+    width: 95%;
     height: 2px;
     margin: 20px auto 5px;
 }
 
 .rewardsList{
     display:block;
-    margin-left: 50px;
+    margin-right: 200px;
 }
 .rewardsList div{
     display:block;
@@ -81,5 +87,6 @@ html{
 .welcomeText{
     font-size: 30px;
     padding-bottom:90px;
+    margin-right: 200px;
 }
 }

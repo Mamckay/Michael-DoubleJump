@@ -12,13 +12,15 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 
 .minibutton{
   background-color: transparent;
   border-color: orange;
   color: orange;
   display: block;
+  width: 100%;
+  height: 30px;
 }
 
 .mini{

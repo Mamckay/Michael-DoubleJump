@@ -10,7 +10,10 @@ class Cart extends React.Component {
     this.props.dispatch(fetchCart());
   }
   renderTotal() {
-    const temp = this.props.cart.length * 59.99;
+    let temp = 0;
+    this.props.cart.map(item => {
+      temp = Number(item.price) + Number(temp);
+    })
     return `${temp}`;
   }
   listCart() {
@@ -21,7 +24,7 @@ class Cart extends React.Component {
   render() {
     if (this.props.cart.length === 0) {
       return (
-        <section className="cartItems">
+        <section className="empty-cart">
           <p className='orange-text'>Your cart is empty!</p>
           <p>Dont miss out on the great deals we have visit our store today!</p>
         </section>
@@ -32,11 +35,13 @@ class Cart extends React.Component {
           <ul>{this.listCart()}</ul>
           <div className="customHr" />
           <div className="checkout-bar">
-            <span><span className='orange-text'>Total: </span>{this.renderTotal()} plus tax</span>
-            <button onClick={() => this.props.history.push('./order')} className='checkout-button'>Checkout</button>
+            <span className='price'><span className='orange-text'>Total: </span>{this.renderTotal()}</span>
+          </div>
+          <div className='checkout-bar'>
             <button className='checkout-button' onClick={() => this.props.dispatch(clearAll())}>
               Clear cart
-            </button>
+              </button>
+            <button onClick={() => this.props.history.push('./order')} className='checkout-button'>Checkout</button>
           </div>
         </section>
       );

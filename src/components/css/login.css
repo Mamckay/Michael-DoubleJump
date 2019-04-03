@@ -4,9 +4,9 @@
 }
 
 .form-input input{
-  margin: 1% 0 3% 0;
+  margin: 1% 10px 3% 10px;
   height: 30px;
-  width: 310px;
+  width: 290px;
 }
 
 .loginText{
@@ -74,7 +74,7 @@
     margin: 5px;
   }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
 
 .loginText{
     list-style-type: none;

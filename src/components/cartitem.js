@@ -2,8 +2,8 @@ import React from "react";
 
 export default function CartItem(props) {
   return (
-    <li>
-      <span className='orange-text'>{props.item.name}</span>: <span>{props.item.price}</span>
+    <li className='cart-item'>
+      <span className='orange-text'>{props.item.name}</span> <span className='price'>{props.item.price}</span>
     </li>
   );
 }

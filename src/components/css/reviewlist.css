@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
 .reviewList{
     margin: 0 auto;
     
@@ -25,7 +25,7 @@
      width: 200px;
      height: 200px;
      outline: 2px solid black;
-     margin-right: 10px;
+     margin: auto;
  }
  .overgrid{
      display: grid;
@@ -34,25 +34,24 @@
      
  }
  .grid {
-     display: grid;
-     grid-template-columns: auto;
-     grid-gap: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
      background-color: #333;
      padding: 10px;
      border-radius: 10px;
-     margin-right: -5px;
+     margin: 0 15%;
    }
  
    .innerReviewFlex{
-     display: flex;
-     justify-content: center;
+       margin:auto;
 }
  
    .hugetext{
        font-size: 100px;
    }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
 .reviewList{
    margin: 0 auto;
 }

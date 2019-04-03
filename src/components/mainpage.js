@@ -21,9 +21,7 @@ export default class MainPage extends React.Component {
           src="https://s3.dexerto.com/thumbnails/_thumbnailLarge/Is-Fallout-76-down-Bethesda-confirms-downtime-for-nuke-silo-hot-fix-January-2.jpg"
         />
         <h2 className="reviewTitle">Featured Review</h2>
-        <br />
-        <span className="authorTitle">Author: Angry Joe</span>
-        <br />
+        <div className="authorTitle">Author: Angry Joe</div>
         <p className="reviewBody">
           After more than 50 hours plundering the irradiated wasteland of
           Fallout 76, the greatest mystery still lingering is who this mutated

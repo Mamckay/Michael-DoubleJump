@@ -12,14 +12,13 @@ class ReviewList extends React.Component {
   createList() {
     const temp = this.props.reviews.map((review, index) => (
       <section key={index}>
-        <hr className='orange-hr'></hr>
         <ReviewItem
           key={index}
           reviews={this.props.reviews}
           review={review}
           searchTerm={this.props.searchTerm}
         />
-        <hr className='orange-hr'></hr>
+        <hr className='review-hr'></hr>
       </section>
     ));
     return temp;

@@ -26,15 +26,34 @@
     margin: 5% 0;
     color: white;
     display:block;
+    padding: 5px;
+    background-color: rgb(70,69,69);
+    border-radius: 10px;
+}
+
+.empty-cart{
+    color: white;
+    display:block;
     padding: 15px;
     background-color: rgb(70,69,69);
     border-radius: 10px;
 }
 
+.price{
+    font-size: 25px;
+    margin-right: 10%;
+}
+
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
 
 .checkout-bar{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
 }
 
@@ -85,9 +104,9 @@
     color: white;
     display:block;
     padding:5px;
-    
+    margin: 5% 5%;
+    text-align: left;
 }
-
 
 .checkout-bar{
     flex-direction: row;
