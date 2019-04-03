@@ -12,7 +12,7 @@ class Cart extends React.Component {
   renderTotal() {
     let temp = 0;
     this.props.cart.map(item => {
-      temp = Number(item.price) + Number(temp);
+      return temp = Number(item.price) + Number(temp);
     })
     return `${temp}`;
   }
