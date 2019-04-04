@@ -1,7 +1,38 @@
 import React from "react";
 import "./css/mainpage.css";
+import chair from '../assets/chairsale.png';
+import keyboard from '../assets/keyboardsale.png';
+import game from '../assets/comingsoongame.png';
+import { Link } from 'react-router-dom';
 
 export default class MainPage extends React.Component {
+
+  deals() {
+    const dealImgs = ['https://target.scene7.com/is/image/Target/GUEST_e58d3991-53a4-4b7c-9e78-77b4945f45ca',
+      'https://target.scene7.com/is/image/Target/GUEST_5b1f3daf-8634-437c-82b0-9b702c0551ba',
+      'https://target.scene7.com/is/image/Target/GUEST_7b165c8a-aeb5-42b7-ba73-813c90380dbf',
+      'https://photos-us.bazaarvoice.com/photo/2/cGhvdG86Z2FtZXN0b3A/9622f423-8a48-5345-b819-5ef50ee9ae63',
+      'https://scene7.samsclub.com/is/image/samsclub/0004787588098_A'];
+
+    return dealImgs.map(source => {
+      return <Link to='/store'><img className='deal-img' alt='Great Deal' src={source}></img></Link>
+    })
+  }
+
+  popular() {
+    const popularImgs = ['https://www.brufind.com/wp-content/uploads/2017/02/1082407679-1.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTuDAQgxsIm6HqvkdO-_GxQ2U8xi9sc89vh6W20lwPyQvdOVQvfg',
+      'https://target.scene7.com/is/image/Target/GUEST_cbc6b2d8-f493-4321-8b23-1d89a78c6c45',
+      'https://target.scene7.com/is/image/Target/GUEST_f06a3dc9-afc8-401f-a241-35b9cc9987c0',
+      'https://www.picclickimg.com/d/l400/pict/173780178520_/Gunnar-RAZER-30006-fps-Advanced-Gaming-Glasses.jpg'
+    ]
+
+    return popularImgs.map(source => {
+      return <Link to='/store'><img className='deal-img' alt='Great Deal' src={source}></img></Link>
+    })
+  }
+
+
   render() {
     return (
       <section className="containerFeaturedReview">
@@ -15,76 +46,23 @@ export default class MainPage extends React.Component {
           <p>Sign up to utilize the most of this site.</p>
         </header>
         <div className="customHr" />
-        <img
-          alt="missing"
-          className="imgFeatureReview"
-          src="https://s3.dexerto.com/thumbnails/_thumbnailLarge/Is-Fallout-76-down-Bethesda-confirms-downtime-for-nuke-silo-hot-fix-January-2.jpg"
-        />
-        <h2 className="reviewTitle">Featured Review</h2>
-        <div className="authorTitle">Author: Angry Joe</div>
-        <p className="reviewBody">
-          After more than 50 hours plundering the irradiated wasteland of
-          Fallout 76, the greatest mystery still lingering is who this mutated
-          take on Fallout is intended for. Like many of Vault-Tec’s underground
-          bunkers, Bethesda’s multiplayer riff on its post-nuclear RPG series is
-          an experiment gone awry. There are bright spots entangled in this mass
-          of frustratingly buggy and sometimes conflicting systems, but what fun
-          I was able to salvage from the expansive but underpopulated West
-          Virginia map was consistently overshadowed by the monotony of its
-          gathering and crafting treadmill. On the surface, Fallout 76 is
-          another dose of Bethesda’s tried-and-true open-world RPG formula on a
-          larger-than-ever map that’s begging to be explored. As you emerge from
-          Vault 76 you’ll start in a relatively peaceful forest and venture out
-          into more dangerous pockets of the irradiated wasteland. My favorite
-          is traveling the lengths of the Cranberry Bog, where the pinkish-red
-          fields are seemingly inviting from afar but turn out to be full of a
-          snaking system of trenches and alien forests that hide the worst
-          horrors of the wasteland, but there are many more.
-        </p>
-        <img
-          className="rightImg"
-          alt="fallout76"
-          src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/06/Fallout-76-hed-796x419.jpg"
-        />
-        <p className="reviewBody">
-          But while the lighting and art direction of these different regions
-          are great at setting the eerie mood and tone of a destroyed
-          Appalachia, the actual objects like trees, shrubs, buildings, cars,
-          and more somehow look flatter and less detailed than those in Fallout
-          4 did three years ago. Coupling that with Bethesda’s
-          still-unimpressive character animations, Fallout 76 isn’t a
-          good-looking game except when viewed from the exact right angles. When
-          you look closer, it becomes obvious that Bethesda’s ambitious idea to
-          replace all human NPCs with other players results in a lack of
-          meaningful interaction with the world. Other than 20-something other
-          players spread so thinly over a massive map that chance encounters are
-          rare outside of quest locations, just about the only voices you’ll
-          hear are recordings of long-dead questgivers, robots, and AI
-          constructs who simply deliver information at you. Where past Fallout
-          games have more than made up for some of their frustrations with
-          brow-furrowing questions like whether to destroy the town of Megaton
-          or what should become of the New Vegas Strip, there’s no opportunity
-          for the morally tricky decision-making in Fallout 76 because no one
-          talking to you can hear you. Because of that, the so-called main story
-          quests to track down and eliminate the source of a spreading plague
-          boil down to obediently following a breadcrumb trail of journals and
-          notes. With the exception of some occasional goofy and creative tasks,
-          it all feels like chasing ghosts. And though later missions mask the
-          shallowness with some cool large-scale battles and events, they’re
-          fleeting moments.
-        </p>
-        <div>
-          <iframe
-            className="featuredVideo"
-            title="main review"
-            width="500"
-            height="320"
-            src="https://www.youtube.com/embed/SjrDbSgB9IU"
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+        <h2 className='section-title'>Featured</h2>
+        <div className='sale-container'>
+          <Link to='/store' className='sale'><img className='sale-img' src={chair}></img></Link>
+          <Link to='/store' className='sale'><img className='sale-img' src={keyboard}></img></Link>
+          <Link to='/store' className='sale'><img className='sale-img' src={game}></img></Link>
         </div>
+        <div className="customHr" />
+        <h2 className='section-title'>Popular Games</h2>
+        <div className='deal-container'>
+          {this.deals()}
+        </div>
+        <div className="customHr" />
+        <h2 className='section-title'>Whats New</h2>
+        <div className='deal-container'>
+          {this.popular()}
+        </div>
+
       </section>
     );
   }
