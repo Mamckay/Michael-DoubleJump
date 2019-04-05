@@ -1,12 +1,10 @@
 .sale{
-    width:30%;
     background: rgb(70,69,69);
-    height: 300px;
     border: 1px solid grey;
 }
 
 .sale-img{
-    width:100%;
+    width:300px;
     height: 300px;
     border: 1px solid grey;
 }
@@ -18,6 +16,7 @@
 }
 
 .section-title{
+    text-align: center;
     margin-left: 30px;
     color:white;
 }
@@ -25,11 +24,13 @@
 .deal-container{
     display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .sale-container{
     display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .imgFeatureReview{
@@ -103,6 +104,10 @@
     text-align: center;
     color:white;
     font-size:20px;
+}
+
+.section-title{
+    text-align: left;
 }
 
 }
