@@ -29,15 +29,15 @@
   display:none;
 }
 
+.topnav span{
+  border-radius: 10px;
+}
+
 .topnav span:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav span.active {
-  background-color: #4caf50;
-  color: white;
-}
 
 .topnav-right {
   margin-top: 20px;
@@ -86,10 +86,7 @@
   }
 
   /* Add a color to the active/current link */
-  .topnav span.active {
-    background-color: #4caf50;
-    color: white;
-  }
+ 
 
   .topnav-right {
     margin-top: 20px;
