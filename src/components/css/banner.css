@@ -6,11 +6,13 @@
 .each-slide img{
     margin: auto;
     height:150px;
-    width:80%
+    width:100%
 }
 
 .banner-slide{
     position: relative;
+    width:100%;
+    margin:auto;
 }
 
 .banner-slide .react-slideshow-container + div.indicators{

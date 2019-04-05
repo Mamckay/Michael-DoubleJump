@@ -75,7 +75,9 @@
 }
 
 .review-description-container{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .reviewContainer{

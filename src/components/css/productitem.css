@@ -8,9 +8,25 @@
   cursor: pointer;
 }
 
-.minibutton{
-  display: none;
+.bigbutton{
+  background-color: transparent;
+  border-color: orange;
+  color: orange;
+  display: block;
+  width: 200px;
+  height: 30px;
 }
+
+.minibutton{
+  display:none;
+}
+
+.mini{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 
 @media only screen and (max-width: 900px) {
 

@@ -11,15 +11,15 @@ class ReviewList extends React.Component {
   }
   createList() {
     const temp = this.props.reviews.map((review, index) => (
-      <section key={index}>
-        <ReviewItem
-          key={index}
-          reviews={this.props.reviews}
-          review={review}
-          searchTerm={this.props.searchTerm}
-        />
-        <hr className='review-hr'></hr>
-      </section>
+        <section key={index}>
+          <ReviewItem
+            key={index}
+            reviews={this.props.reviews}
+            review={review}
+            searchTerm={this.props.searchTerm}
+          />
+          <hr className='review-hr'></hr>
+        </section>
     ));
     return temp;
   }
