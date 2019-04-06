@@ -15,10 +15,9 @@ class MainStore extends React.Component {
     };
 
     const temp = this.props.products.map((product, index) => (
-      <React.Fragment>
+      <React.Fragment key={index}>
 
         <ProductItem
-          key={index}
           product={product}
           onClick={() => onClick(product)}
           history={this.props.history}
@@ -42,7 +41,6 @@ class MainStore extends React.Component {
 const getVisibleProducts = state => {
   const searchTerm = state.search.searchTerm;
   const products = state.store.products;
-  console.log(products);
   if (!searchTerm) {
     return products;
   } else {

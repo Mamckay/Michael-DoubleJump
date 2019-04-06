@@ -138,21 +138,7 @@ export const fetchCart = () => (dispatch, getState) => {
 };
 
 export const clearAll = () => (dispatch, getState) => {
-  //create a dispatch methods
-  const loggedIn = getState().session.currentUser !== null;
-  const authToken = getState().session.authToken;
   dispatch(clearCart());
-  if (loggedIn) {
-    fetch(`${API_BASE_URL}/users/cart`, {
-      method: "PUT",
-      headers: {
-        // Provide our auth token as credentials
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${authToken}`
-      },
-      body: JSON.stringify({ cart: getState().cart.items })
-    });
-  }
 };
 
 // search stuff

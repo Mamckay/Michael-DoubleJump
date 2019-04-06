@@ -4,7 +4,6 @@ import { Redirect } from "react-router-dom";
 import { fetchCart, fetchOrderHistory } from "../actions/index";
 import "./css/profile.css";
 import CartItem from "./cartitem";
-import Cart from "./cart";
 import OrdersHistory from "./ordershistory";
 class Profile extends React.Component {
   componentDidMount() {
@@ -41,8 +40,7 @@ class Profile extends React.Component {
           <div className="customHr" />
           <br />
           <div>
-            <Cart history={this.props.history} />
-            {/* <OrdersHistory orders={this.props.orders} /> */}
+            <OrdersHistory orders={this.props.orders} />
           </div>
         </section>
       );

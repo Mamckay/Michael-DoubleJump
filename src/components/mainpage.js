@@ -14,8 +14,8 @@ export default class MainPage extends React.Component {
       'https://photos-us.bazaarvoice.com/photo/2/cGhvdG86Z2FtZXN0b3A/9622f423-8a48-5345-b819-5ef50ee9ae63',
       'https://scene7.samsclub.com/is/image/samsclub/0004787588098_A'];
 
-    return dealImgs.map(source => {
-      return <Link to='/store'><img className='deal-img' alt='Great Deal' src={source}></img></Link>
+    return dealImgs.map((source, index) => {
+      return <Link key={index} to='/store'><img className='deal-img' alt='Great Deal' src={source}></img></Link>
     })
   }
 
@@ -27,8 +27,8 @@ export default class MainPage extends React.Component {
       'https://www.picclickimg.com/d/l400/pict/173780178520_/Gunnar-RAZER-30006-fps-Advanced-Gaming-Glasses.jpg'
     ]
 
-    return popularImgs.map(source => {
-      return <Link to='/store'><img className='deal-img' alt='Great Deal' src={source}></img></Link>
+    return popularImgs.map((source, index) => {
+      return <Link key={index} to='/store'><img className='deal-img' alt='Great Deal' src={source}></img></Link>
     })
   }
 
@@ -48,9 +48,9 @@ export default class MainPage extends React.Component {
         <div className="customHr" />
         <h2 className='section-title'>Featured</h2>
         <div className='sale-container'>
-          <Link to='/store' className='sale'><img className='sale-img' src={chair}></img></Link>
-          <Link to='/store' className='sale'><img className='sale-img' src={keyboard}></img></Link>
-          <Link to='/store' className='sale'><img className='sale-img' src={game}></img></Link>
+          <Link to='/store' className='sale'><img alt='sale item one' className='sale-img' src={chair}></img></Link>
+          <Link to='/store' className='sale'><img alt='sale item two' className='sale-img' src={keyboard}></img></Link>
+          <Link to='/store' className='sale'><img alt='sale item three' className='sale-img' src={game}></img></Link>
         </div>
         <div className="customHr" />
         <h2 className='section-title'>Popular Games</h2>

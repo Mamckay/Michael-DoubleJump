@@ -3,7 +3,6 @@ import { fetchCart } from "../actions/index";
 import { connect } from "react-redux";
 import CartItem from "./cartitem";
 import { setNewOrder, clearAll } from "../actions";
-import { Link } from "react-router-dom";
 import "./css/cart.css";
 
 class Order extends React.Component {
