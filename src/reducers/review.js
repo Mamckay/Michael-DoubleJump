@@ -9,7 +9,7 @@ initial state
 */
 
 const initialState = {
-  reviews: [],
+  review: null,
   loading: false,
   error: null
 };
@@ -23,7 +23,7 @@ const reviewReducer = (state = initialState, action) => {
   }
   if (action.type === SET_REVIEW) {
     return Object.assign({}, state, {
-      reviews: action.reviews,
+      review: action.review,
       error: null,
       loading: false
     });

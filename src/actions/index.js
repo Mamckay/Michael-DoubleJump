@@ -6,23 +6,24 @@ export const setReviewLoading = () => ({
   type: SET_REVIEW_LOADING
 });
 export const SET_REVIEW = "SET_REVIEW";
-export const setReview = reviews => ({
+export const setReview = review => ({
   type: SET_REVIEW,
-  reviews
+  review
 });
 export const SET_REVIEW_ERROR = "SET_REVIEW_ERROR";
 export const setReviewError = error => ({
   type: SET_REVIEW_LOADING,
   error
 });
-export const fetchReviews = () => dispatch => {
+export const fetchReview = (id) => dispatch => {
   //create a dispatch methods
   dispatch(setReviewLoading);
-  fetch(`${API_BASE_URL}/reviews`)
+  fetch(`${API_BASE_URL}/reviews/${id}`)
     .then(res => {
       return res.json();
     })
     .then(data => {
+      console.log(data);
       dispatch(setReview(data));
     })
     .catch(err => {

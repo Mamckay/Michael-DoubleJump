@@ -21,12 +21,7 @@
      cursor: pointer;
  }
  
- .imgTopReviews{
-     width: 200px;
-     height: 200px;
-     outline: 2px solid black;
-     margin: auto;
- }
+
  .overgrid{
      display: grid;
      grid-template-rows: 350px auto;
@@ -43,9 +38,7 @@
      margin: 0 10%;
    }
  
-   .innerReviewFlex{
-       margin:auto;
-}
+   
  
    .hugetext{
        font-size: 100px;
@@ -73,13 +66,7 @@
     cursor: pointer;
 }
 
-.imgTopReviews{
-    width: 200px; 
-    height: 200px; 
-    outline: 2px solid black;
-    margin-right: 10px;
-    
-}
+
 .overgrid{
     display: grid;
     grid-template-columns: 20% 80%;
@@ -96,9 +83,7 @@
     margin-right: 20px;
   }
 
-  .innerReviewFlex{
-    display: flex;
-  }
+ 
 
   .hugetext{
       font-size: 100px;

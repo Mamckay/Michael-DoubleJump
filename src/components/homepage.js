@@ -5,7 +5,6 @@ import {
   Switch
 } from "react-router-dom";
 import Navbar from "./navbar";
-import ReviewList from "./reviewlist";
 import Login from "./login";
 import MainStore from "./mainstore";
 import Profile from "./profile";
@@ -26,7 +25,6 @@ export default class HomePage extends React.Component {
           <main>
             <Switch>
               <Route exact path="/" component={MainPage} />
-              <Route exact path="/reviews" component={ReviewList} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/store" component={MainStore} />
               <Route exact path="/profile" component={Profile} />

@@ -15,11 +15,6 @@ function Navbar(props) {
               Home
             </span>
           </Link>
-          <Link to="/reviews">
-            <span className="topnav-left" href="#reviews">
-              Reviews
-            </span>
-          </Link>
           <Link to="/store">
             <span className="topnav-left" href="#store">
               Store
@@ -51,11 +46,6 @@ function Navbar(props) {
           <Link to="/">
             <span className="topnav-left" href="#home">
               Home
-            </span>
-          </Link>
-          <Link to="/reviews">
-            <span className="topnav-left" href="#reviews">
-              Reviews
             </span>
           </Link>
           <Link to="/store">
