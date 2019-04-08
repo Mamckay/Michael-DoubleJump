@@ -10,7 +10,7 @@ class Navbar extends React.Component {
     this.setup();
   }
   setup() {
-    if (localStorage.getItem('authToken') !== 'null' || localStorage.getItem('authToken') !== null) {
+    if (localStorage.getItem('authToken') !== 'null' && localStorage.getItem('authToken') !== null) {
       console.log(localStorage.getItem('authToken'));
       this.props.dispatch(relog(localStorage.getItem('authToken')));
     }
